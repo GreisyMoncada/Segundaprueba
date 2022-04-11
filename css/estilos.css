@@ -1,0 +1,197 @@
+
+/*estilos del header*/
+
+.hero__container{
+    margin: 40px auto;
+
+}
+
+.hero__logo{
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 700, bold;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin-top: 15px;
+
+}
+
+/*barra de navegacion*/
+
+.narbar{
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500 , medium;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
+}
+
+/*input*/
+
+.form-inline{
+    text-align: right;
+    margin-top: 20px;
+
+}
+
+/*main*/
+
+.sec__prin{
+    margin: 30px auto;
+}
+
+.titulo{
+    font-family: Manrope;
+    font-size: 49px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-top: 100px;
+}
+.parrafo{
+    font-family: Manrope;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.primer__input{
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+}
+
+/*.imagen{
+    background-color: mediumturquoise;
+    clip-path: circle(64.7% at 79% 100%);
+    z-index: -1;
+}*/
+.img{
+  
+    float: right;
+    width: 60%;
+}
+
+
+/*Footer del main*/
+
+.primer__footer{
+    margin-top: 40px;
+}
+
+
+/*subtitulos*/
+
+.subti{
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700 bold;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #4D77FF;
+    text-align: center;
+    
+}
+
+.subti__footer{
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 700 bold;
+    line-height: 40px;
+    letter-spacing: 0.015em;
+    text-align: center;
+    
+}
+
+/*articulos*/
+.about {
+    text-align: center;
+}
+
+.subtitle {
+    color: var(--color-title);
+    margin-bottom: 25px;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
+}
+
+
+.about__paragraph {
+  
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    
+}
+
+.about__main {
+    padding-top: 80px;
+    display: grid;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.about__icons {
+    display: grid;
+    gap: 1em;
+    overflow: hidden;
+    margin: 0 auto;
+    border-top: solid;
+    border-color: #4D77FF;
+}
+
+.about__icon {
+    width: 40px;
+}
+
+
+/*segunda seccion*/
+.segunda__seccion{
+
+    margin-top: 40px;
+}
+.segundo__subti{
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #4D77FF;    
+}
+.segundo__titulo{
+    font-family: Manrope, bold;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    
+}
+
+.segundo__parrafo{
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    
+}
