@@ -66,15 +66,21 @@
     height: 50px;
 }
 
-/*.imagen{
-    background-color: mediumturquoise;
-    clip-path: circle(64.7% at 79% 100%);
+.conta__row{
+    padding-top: 100px;
+}
+.img__conta{
+    padding-top: 50px;
+    background-image: url(../imagenes/Ellipse\ 1.png);
     z-index: -1;
-}*/
-.img{
-  
-    float: right;
-    width: 60%;
+    background-repeat: no-repeat;
+    background-position: -13px 155px;
+
+}
+
+.img2{
+    z-index: 1;
+    width: 100%;
 }
 
 
@@ -90,7 +96,7 @@
 .subti{
     font-family: Manrope;
     font-size: 14px;
-    font-weight: 700 bold;
+    font-weight: 700;
     line-height: 20px;
     letter-spacing: 0.03em;
     color: #4D77FF;
@@ -99,9 +105,9 @@
 }
 
 .subti__footer{
-    font-family: Manrope;
+    font-family: Manrope, bold;
     font-size: 32px;
-    font-weight: 700 bold;
+    font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.015em;
     text-align: center;
@@ -114,7 +120,6 @@
 }
 
 .subtitle {
-    color: var(--color-title);
     margin-bottom: 25px;
     font-family: Manrope;
     font-size: 14px;
@@ -125,36 +130,48 @@
     
 }
 
-
-.about__paragraph {
-  
+.about__title{
     font-family: Manrope;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 16px;
+    font-size: 14px;
+    font-weight: 700;
     letter-spacing: 0.03em;
     text-align: left;
     
 }
+p.abouŧ__parrafos {
+    font-size: 12px;
+    font-family: manrope;
 
+}
+   
 .about__main {
-    padding-top: 80px;
+    padding: 30px;
     display: grid;
     margin: 0 auto;
     gap: 1em;
     overflow: hidden;
     grid-template-columns: repeat(auto-fit, minmax(260px, auto));
     grid-template-columns: 1fr 1fr 1fr 1fr;
+
+
 }
-
-
 .about__icons {
     display: grid;
     gap: 1em;
     overflow: hidden;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+   
+}
+.articulos{
+    box-shadow: 0px 20px 19px 0px #E5E5E5;
     border-top: solid;
     border-color: #4D77FF;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
 }
 
 .about__icon {
@@ -166,6 +183,10 @@
 .segunda__seccion{
 
     margin-top: 40px;
+}
+
+.segunda__row{
+    padding-top: 60px;
 }
 .segundo__subti{
     font-family: Manrope;
@@ -193,5 +214,50 @@
     line-height: 20px;
     letter-spacing: 0.02em;
     text-align: left;
+    
+}
+
+
+.img__cuadra{
+    
+    float: right;
+}
+.imagen__cuadrada{
+    background-image: url(../imagenes/eclipse6.png);
+    background-position: 4px 160px;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+
+/*tercera seccion*/
+
+.tercera__seccion{
+    padding-top: 70px;
+}
+
+
+/*cuarta seccion*/
+.cuarta__section{
+    padding-top: 100px;
+    
+}
+.parrafo__tres{
+    font-family: Manrope, regular;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    padding-top: 63px;
+    padding-bottom: 130px;
+    
+}
+
+
+/*container footer*/
+
+.container__foter{
+    padding-top: 100px;
     
 }
