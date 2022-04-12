@@ -2,7 +2,7 @@
 /*estilos del header*/
 
 .hero__container{
-    margin: 40px auto;
+    padding-top: 50px;
 
 }
 
@@ -224,7 +224,7 @@ p.abouŧ__parrafos {
 }
 .imagen__cuadrada{
     background-image: url(../imagenes/eclipse6.png);
-    background-position: 4px 160px;
+    background-position: 4px 242px;
     z-index: -1;
     background-repeat: no-repeat;
 }
