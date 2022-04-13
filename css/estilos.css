@@ -515,7 +515,7 @@ span{
         position: absolute;
         border-radius: 15px;
         box-shadow: 0px 0px 30px 0px #e5e5e5;
-        width: 40px;
+        width: 150px;
     }
 
 }
@@ -542,6 +542,6 @@ span{
         position: absolute;
         border-radius: 15px;
         box-shadow: 0px 0px 30px 0px #e5e5e5;
-        width: 50px;
+        width: 100px;
     }
 }
