@@ -1,3 +1,9 @@
+*{
+    list-style: none;
+}
+.row{
+    width: 100%;
+}
 
 /*estilos del header*/
 
@@ -7,9 +13,9 @@
 }
 
 .hero__logo{
-    font-family: Manrope;
+    font-family: Manrope, bold;
     font-size: 24px;
-    font-weight: 700, bold;
+    font-weight: 700;
     letter-spacing: 0.03em;
     text-align: left;
     margin-top: 15px;
@@ -77,16 +83,24 @@
     background-position: -13px 155px;
 
 }
-
-.img2{
+.card{
+    float: left;
     z-index: 1;
-    width: 100%;
+    position: absolute;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px 0px #e5e5e5;
+    
 }
+
+
+
+
+
 
 
 /*Footer del main*/
 
-.primer__footer{
+.primera__section{
     margin-top: 40px;
 }
 
@@ -104,13 +118,14 @@
     
 }
 
-.subti__footer{
+.subti__section{
     font-family: Manrope, bold;
     font-size: 32px;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.015em;
     text-align: center;
+    
     
 }
 
@@ -145,15 +160,12 @@ p.abouŧ__parrafos {
 }
    
 .about__main {
-    padding: 30px;
+    margin: 30px 100px;
+    padding-bottom: 30px;
     display: grid;
-    margin: 0 auto;
     gap: 1em;
     overflow: hidden;
-    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
     grid-template-columns: 1fr 1fr 1fr 1fr;
-
-
 }
 .about__icons {
     display: grid;
@@ -173,11 +185,6 @@ p.abouŧ__parrafos {
     border-bottom-left-radius: 10px;
     
 }
-
-.about__icon {
-    width: 40px;
-}
-
 
 /*segunda seccion*/
 .segunda__seccion{
@@ -236,12 +243,67 @@ p.abouŧ__parrafos {
     padding-top: 70px;
 }
 
+.about__section{
+    padding: 0px 200px 50px;
+    display: grid;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+}
+
+.section__title{
+    font-family: Manrope, bold;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+.section__parrafos{
+    font-family: Manrope, bold;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    text-align: center;
+    
+}
+
+.cite{
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color:#696969;
+    
+    
+}
+
+.container__informativo{
+    margin-top: 100px;
+}
 
 /*cuarta seccion*/
 .cuarta__section{
-    padding-top: 100px;
-    
+  
+    width: 100%;
+    background-color: aliceblue;
+    z-index: -1;
+    height: 349px;
+    margin-bottom: 180px;
+    margin-top: 50px;
 }
+
+.section__row{
+    padding-top: 90px;
+}
+    
 .parrafo__tres{
     font-family: Manrope, regular;
     font-size: 25px;
@@ -254,10 +316,204 @@ p.abouŧ__parrafos {
     
 }
 
+.imagen__doctor{
+    width: 70%;
+}
+
 
 /*container footer*/
 
-.container__foter{
-    padding-top: 100px;
+.conta__footer{
+    padding-top: 200px;
     
+}
+
+.redes__titulo{
+    
+    font-family: Manrope, bold;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    
+}
+span{
+    color: #4D77FF;
+}
+.redes__titulo  ~ li {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    
+}
+
+#footer{
+    font-family: Manrope, bold;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    text-align: justify;
+    
+}
+/*responsive */
+
+@media (min-width: 768px) and (max-width: 1199px){
+    .img__conta {
+        padding-top: 50px;
+        background-image: url(../imagenes/Ellipse\ 1.png);
+        z-index: -1;
+        background-repeat: no-repeat;
+        background-position: 14px 284px;;
+    }
+
+    .imagen__cuadrada {
+        background-image: url(../imagenes/eclipse6.png);
+        background-position: 94px 358px;
+        z-index: -1;
+        background-repeat: no-repeat;
+    }
+    .conta__footer{
+        padding-top: 560px;
+    }
+
+    .form-inline{
+        display: inline-flex;
+        align-items: center;
+    }
+
+    
+    
+}
+
+@media (max-width:800px){
+
+    .form-inline{
+        display: inline-flex;
+        align-items: center;
+    }
+
+
+    .grid{
+        gap: 2em;
+        display: flex;
+        grid-template-columns: minmax(9em, 1fr);
+        flex-direction: column;
+        margin: auto;
+        padding: initial;
+    }
+
+    .titulo{
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .primer__input{
+        width: auto;
+        height: 50px;
+    }
+
+    .conta__footer{
+        padding-top: 450px;
+    }
+
+    .subti__section {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0.015em;
+     
+    }
+    .segundo__titulo {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0.015em;
+    
+    }
+
+    .parrafo__tres {
+        font-family: Manrope, regular;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0.03em;
+        text-align: left;
+        padding-top: 63px;
+        padding-bottom: 120px;
+    }
+}
+
+@media (max-width:600px){
+
+    .form-inline{
+        display: inline-flex;
+        align-items: center;
+
+    }
+
+
+    .grid{
+        gap: 2em;
+        display: flex;
+        grid-template-columns: minmax(9em, 1fr);
+        flex-direction: column;
+        margin-left: auto;
+        padding: initial;
+
+    }
+    .conta__footer{
+        padding-top: 350px;
+    }
+   
+    .titulo{
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .subti__section {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0.015em;
+     
+    }
+
+    .segundo__titulo {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: 0.015em;
+    
+    }
+
+    .img__conta {
+        padding-top: 50px;
+        background-image: url(../imagenes/Ellipse\ 1.png);
+        z-index: -1;
+        background-repeat: no-repeat;
+        background-position: -13px 155px;
+    }
+
+}
+
+
+@media (max-width:480px) and (min-width:320px){
+    .img__conta {
+        padding-top: 50px;
+        background-image: url(../imagenes/Ellipse\ 1.png);
+        z-index: -1;
+        background-repeat: no-repeat;
+        background-position: -210px 130px;
+    }
+
+    .imagen__cuadrada {
+        background-image: url(../imagenes/eclipse6.png);
+        background-position: -69px 144px;
+        z-index: -1;
+        background-repeat: no-repeat;
+    }
 }
